@@ -11,7 +11,7 @@
 </html>
 
 <form method="get">
-    <link rel="stylesheet" href="/form.css" />
+    <link rel="stylesheet" href="/form-task-1/form.css" />
 
 
   
@@ -19,135 +19,128 @@
       <h1>Donor Information</h1>
     </div>
 
-    <div class="inputs1">
 
-    <label for="firstname">
-      <div class="inputs1">
-        First Name:<input type="text" name="firstname" required /><br />
-        </div>
-
-       <div class="inputs1">
-        Last Name:<input type="text" name="lastname" required /><br />
-      </div>
-      </label>
-      </div>
-      <label for="company">
-      <div class="inputs1">
-        Company:<input type="text" name="Company" required /><br />
-      </div>
-      </label>
-      <label>
-      <div class="inputs1">
-        Address 1:<input type="text" name="Address 1" required /><br />
-       </div>
-       <label>
-       <div class="inputs1">
-        Address 2:<input type="text" name="Address 2" required /><br />
-      </div>
-      </label>
-      </div>
-  </label>
-  <label>
-      <div class="inputs1">
-        City:<input type="text" name="City" required /><br />
-      </div>
-</label>
-<label>
-      <div class="inputs1">
-        <label for="state">state: </label>
-        <select>
-          <option value="dhaka">Dhaka</option>
-          <option value="Sylhet">Sylhet</option>
-          <option value="Chittagong">Chittagong</option>
-        </select>
-      </div>
-</label>
-<label>
-      <div class="inputs1">
-            Zip code:<input type="text" name="ZipCode" required /><br />
+<div class="inputs1">
+  <label for="firstname">First Name:*</label>
+  <input type="text" id="firstname" name="firstname" required />
+</div>
 
 
-      </div>
+<div class="inputs1">
+  <label for="lastname">Last Name:*</label>
+  <input type="text" id="lastname" name="lastname" required />
+</div>
 
 
-      <div class="inputs1">
-        <label for="country">country: </label>
-        <select>
-          <option value="Bangladesh">Bangladesh</option>
-          <option value="Spain">Spain</option>
-          <option value="Maldives">Maldives</option>
-        </select>
-      </div>
+<div class="inputs1">
+  <label for="company">Company:</label>
+  <input type="text" id="company" name="company" required />
+</div>
 
-      <div class="inputs1">
 
-         Phone<input type="number" name="Phone" required /><br />
+<div class="inputs1">
+  <label for="address1">Address 1:*</label>
+  <input type="text" id="address1" name="address1" required />
+</div>
 
-      </div>
 
-      <div class="inputs1">
 
-         fax<input type="number" name="Fax" required /><br />
+<div class="inputs1">
+  <label for="address2">Address 2:*</label>
+  <input type="text" id="address2" name="address2" required />
+</div>
 
-      </div>
 
-      <div class="inputs1">
-          Email:<input type="email" name="email" required /><br />
+<div class="inputs1">
+  <label for="city">City:*</label>
+  <input type="text" id="city" name="city" required />
+</div>
 
-      </div>
-     <div class="inputs1">
-  <label for="donation">Donation Amount:</label>
+
+<div class="inputs1">
+  <label for="state">State:*</label>
+  <select id="state" name="state" required>
+    <option value="dhaka">Dhaka</option>
+    <option value="sylhet">Sylhet</option>
+    <option value="chittagong">Chittagong</option>
+  </select>
+</div>
+
+
+<div class="inputs1">
+  <label for="zip">Zip Code:*</label>
+  <input type="text" id="zip" name="zip" required />
+</div>
+
+
+<div class="inputs1">
+  <label for="country">Country:*</label>
+  <select id="country" name="country" required>
+    <option value="bangladesh">Bangladesh</option>
+    <option value="spain">Spain</option>
+    <option value="maldives">Maldives</option>
+  </select>
+</div>
+
+
+<div class="inputs1">
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone" required />
+</div>
+
+
+<div class="inputs1">
+  <label for="fax">Fax:*</label>
+  <input type="tel" id="fax" name="fax" required />
+</div>
+
+
+<div class="inputs1">
+  <label for="email">Email:*</label>
+  <input type="email" id="email" name="email" required />
+</div>
+
+
+<div class="inputs1">
+  <label>Donation Amount:</label>
   <div>
-    <label>
-      <input type="radio" name="donation" value="none"> none
-    </label>
-    <label>
-      <input type="radio" name="donation" value="110"> 110
-    </label>
-    <label>
-      <input type="radio" name="donation" value="200"> 200
-    </label>
-    <label>
-      <input type="radio" name="donation" value="400"> 400
-    </label>
-    <label>
-      <input type="radio" name="donation" value="5000"> 5000
-    </label>
+    <label><input type="radio" name="donation_amount" value="none"> none</label>
+    <label><input type="radio" name="donation_amount" value="110"> 110</label>
+    <label><input type="radio" name="donation_amount" value="200"> 200</label>
+    <label><input type="radio" name="donation_amount" value="400"> 400</label>
+    <label><input type="radio" name="donation_amount" value="5000"> 5000</label>
     <p style="font-size: 12px; margin-top: 5px;">(check amount to donate)</p>
   </div>
 </div>
 
-   
-<div class="inputs1">
-            Other Amount:<input type="text" name="OtherAmount" required /><br />
-
-
-      </div>
-
 
 <div class="inputs1">
-  <label for="donation">Recurring donation:</label>
+  <label for="otheramount">Other Amount:</label>
+  <input type="text" id="otheramount" name="otheramount" required />
+</div>
+
+
+<div class="inputs1">
+  <label>Recurring Donation:</label>
   <div>
-    <input type="radio" name="donation" value="yes">
+    <input type="radio" name="recurring" value="yes">
     Yes, I'm interested in giving on a regular basis
     <p style="font-size: 12px; margin: 4px 0 0;">(check if Yes)</p>
   </div>
 </div>
 
 
+
+
 <div class="inputs1">
-  <label for="card">Monthly credit card $:</label>
+  <label for="card">Monthly Credit Card $:</label>
   <div>
-    <input type="text" id="card" name="card" style="width: 100px;">
+    <input type="text" id="card" name="card" style="width: 100px;" />
     &nbsp;For&nbsp;
-    <input type="text" name="months" style="width: 50px;">
+    <input type="text" name="months" style="width: 50px;" />
   </div>
 </div>
 
-
- </div>
-    </div>
- <div class="inputs2">
 
 
 <div class="headings">
@@ -210,7 +203,7 @@
 <p>Please enter name, company, and details:</p>
 
 
-<div class="inputs2">
+<div class="inputs1">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required />
 </div>
@@ -225,15 +218,22 @@
   </div>
 </div>
 
+ <b style="font-size: 30px;font-weight: 200;text-align: center; margin-top: 5px;margin-right: 5px;">Comments</b>
 
-<div class="inputs2">
-  <label for="comments">Comments:</label>
-  <input type="text" id="comments" name="comments" required />
+<div class="inputs1">
+ <!-- <label for="comments">comments:</label> -->
+<div>
+<textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+ 
+    <p style="font-size: 12px; margin-top: 5px;">(please type any questions or feedback here)</p>
+</div>
+ 
+  <!-- <input type="text" id="comments" name="comments" required /> -->
 </div>
 
-
-<div class="inputs2">
-  <label for="contact_method">Preferred Contact Method:</label>
+ <b style="font-size: 30px;font-weight: 200; margin-top: 5px;">How may we contact you?</b>
+<div class="inputs1">
+ 
   <div>
     <label><input type="radio" name="contact_method" value="email"> Email</label><br>
     <label><input type="radio" name="contact_method" value="phone"> Phone</label><br>
@@ -241,9 +241,9 @@
   </div>
 </div>
 
-
-<div class="inputs2">
-  <label for="newsletter">I would like to receive newsletters in:</label>
+ <b style="font-size: 30px;font-weight: 200; margin-top: 5px;">I would like to receivenewsletters in</b>
+<div class="inputs1">
+  
   <div>
     <label><input type="radio" name="newsletter" value="email"> Email</label><br>
     <label><input type="radio" name="newsletter" value="postal"> Postal</label>

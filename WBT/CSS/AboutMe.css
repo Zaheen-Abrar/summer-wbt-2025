@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(178, 184, 184);
+}
+
+.header{
+    background-color: rgb(19, 19, 19);
+  padding: 20px;
+  text-align: cente
+  
+}
+.header a{
+    color: rgb(6, 239, 239);
+    text-decoration: none;
+    padding: 50px;
+}
+.header a:hover {
+  color: rgb(235, 235, 244);      
+  text-decoration: underline;
+}
+.image{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.name{
+
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: ;
+}
+
+.foot{
+    background-color: black;
+
+}
+
+.foot a{
+    color: aqua;
+    padding: 20px;
+}
+.foot a:hover{
+    color: aliceblue;
+}
+.country{
+      display: flex;         
+    flex-wrap: wrap;       
+    justify-content: center; 
+    gap: 20px;     
+}
+img{
+    /* align-items: center; */
+    display: flex;
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    transition: all 2s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.place{
+    text-align: center;
+}
+.desc{
+      padding: 20px;
+  background-color: rgb(218, 223, 223);
+  
+   
+  border-style: double;
+
+}
+.desc:hover{
+    color: rgb(69, 12, 225);
+    box-sizing: border-box;
+    transition: 1s;
+}
+section{
+    padding: 10px;
+}

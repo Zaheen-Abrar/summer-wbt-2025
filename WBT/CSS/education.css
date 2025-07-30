@@ -1,0 +1,74 @@
+.header{
+    background-color: rgb(19, 19, 19);
+  padding: 20px;
+  text-align: cente
+  
+}
+.header a{
+    color: rgb(6, 239, 239);
+    text-decoration: none;
+    padding: 50px;
+}
+.header a:hover {
+  color: rgb(235, 235, 244);      
+  text-decoration: underline;
+}
+
+body{
+    background-color: rgb(178, 173, 173);
+}
+
+.foot{
+    background-color: black;
+
+}
+
+.foot a{
+    color: aqua;
+    padding: 20px;
+}
+.foot a:hover{
+    color: aliceblue;
+}
+.Ocontainer {
+  background-color: rgb(247, 248, 249);
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 20px; /* space between image and text */
+  border-style: ridge;
+}
+
+.Aicontainer {
+
+
+  padding: 20px;
+  background-color: rgb(194, 206, 217);
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 20px; /* space between image and text */
+  border-style: ridge;
+
+}
+
+.Aicontainer:hover{
+  color: rgb(235, 132, 6);
+}
+
+.Acontainer {
+  padding: 20px;
+  background-color: rgb(133, 188, 243);
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 20px; /* space between image and text */
+  border-style: ridge;
+}
+.Acontainer:hover{
+  color: beige;
+}
+.Ocontainer:hover{
+  color: rgb(242, 150, 150);
+}
+section{
+  padding: 10px;
+  border: round;
+}

@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(178, 184, 184);
+}
+
+.header{
+    background-color: rgb(19, 19, 19);
+  padding: 20px;
+  text-align: cente
+  
+}
+.header a{
+    color: rgb(6, 239, 239);
+    text-decoration: none;
+    padding: 50px;
+}
+.header a:hover {
+  color: rgb(235, 235, 244);      
+  text-decoration: underline;
+}
+.image{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.name{
+
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: ;
+}
+
+.foot{
+    background-color: black;
+
+}
+
+.foot a{
+    color: aqua;
+    padding: 20px;
+}
+.foot a:hover{
+    color: aliceblue;
+}
+
+img{
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    transition: all 2s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.git{
+    
+ text-emphasis-color: ;
+    
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(7, 228, 228);
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 20px; /* space between image and text */
+  border-style: double;
+
+
+}
+.git:hover{
+    color: beige;
+}
+.p{
+    size: 40px;
+    color: rgb(13, 13, 13);
+}
+a:hover{
+    color: rgb(235, 227, 227);
+}
+
+.foot{
+    background-color: rgb(6, 6, 6);
+    color: aliceblue;
+    padding: 5px ;
+
+
+
+}
+
+.foot a{
+    color: aqua;
+    padding: 20px;
+}
+.foot a:hover{
+    color: aliceblue;
+}
